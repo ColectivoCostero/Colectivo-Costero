@@ -1,0 +1,37 @@
+baseURL = "https://www.colectivocostero.org/"
+languageCode = "en-us"
+title = "Colectivo Costero"
+theme = "colectivo"
+disableHugoGeneratorMeta = true
+
+[params]
+  description = "Partnerships that help children, families, and communities to thrive"
+  ein = "88-3144883"
+  email = "ColectivoCostero1@gmail.com"
+  usPhone = "+1 626 230 1102"
+  mxPhone = "+52 661 110 9007"
+  address = "4116 W, Chama Drive, Glendale, AZ 85310"
+  primaryColor = "#1E88A8"
+  secondaryColor = "#4A90E2"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 2
+  [[menu.main]]
+    name = "Partners"
+    url = "/partners"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+  [[menu.main]]
+    name = "Donate"
+    url = "/donate"
+    weight = 5
